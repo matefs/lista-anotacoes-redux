@@ -1,15 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+// App.js
+import React from 'react';
+import TodoList from './TodoList';
 
-function App() { 
-
+function App() {
   return (
-    <>
-    teste
-    </>
-  )
+    <div className="App">
+      <h1>Todo App</h1>
+      <TodoList />
+    </div>
+  );
 }
 
-export default App
+export default App;
