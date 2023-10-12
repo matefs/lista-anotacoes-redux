@@ -12,6 +12,11 @@ function todoApp(state = initialState, action) {
         ...state,
         todos: [...state.todos, { text: action.text, completed: false }],
       };
+    case IMPRIME:
+      return {
+        ...state,
+        todos: [...state.todos, ]
+      }
     default:
       return state;
   }
