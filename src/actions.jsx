@@ -10,4 +10,3 @@ export const IMPRIME = 'IMPRIME'
   export function teste(text){
   return { type: IMPRIME, text}
 }
-
