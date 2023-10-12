@@ -1,8 +1,10 @@
 // reducers.js
 import { ADD_TODO } from './actions';
+import {IMPRIME } from './actions';
 
 const initialState = {
   todos: [],
+  outro: []
 };
 
 function todoApp(state = initialState, action) {
@@ -15,7 +17,7 @@ function todoApp(state = initialState, action) {
     case IMPRIME:
       return {
         ...state,
-        todos: [...state.todos, ]
+        outros: [...state.outros]
       }
     default:
       return state;
